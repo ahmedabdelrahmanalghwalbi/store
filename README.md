@@ -8,6 +8,8 @@ The app follows the **MVVM (Model-View-ViewModel)** architecture, ensuring clean
 ---
 
 ## Architecture & Design
+
+- **Architecture Pattern:** Chose MVVM (Model-View-ViewModel) for its simplicity, fast implementation, and ease of maintenance, making it a practical and efficient architectural choice for this project.
 - **State Management:** Implemented using `provider` for dependency injection and state management.  
 - **Dependency Injection:** The app is built upon dependency injection principles to ensure testability and maintainability.  
 - **Localization:** Handled with `easy_localization`, supporting multiple languages with JSON-based translations.  
@@ -87,8 +89,8 @@ dependencies:
 1️⃣ **Clone the repository**
 
 ```bash
-git clone https://github.com/your-repo/product-catalog-app.git
-cd product-catalog-app
+git clone https://github.com/ahmedabdelrahmanalghwalbi/store.git
+cd store
 ```
 
 2️⃣ **Install dependencies**
@@ -140,26 +142,3 @@ Use these credentials for testing the authentication functionality:
 | [jimmie@gmail.com](mailto:jimmie@gmail.com)     | jimmie\_k | klein\*#%\*   |
 
 🔐 **Note:** Passwords are case-sensitive and contain special characters as shown.
-
----
-
-## Testing
-
-✅ **Unit tests** are implemented for authentication and critical components.
-Run tests using:
-
-```bash
-flutter test
-```
-
----
-
-## Technical Highlights
-
-* Clean and modular code following **SOLID principles**
-* Emphasis on **dependency injection** and **state management**
-* Well-structured **naming conventions** and **consistent architecture**
-* **Error handling** and **session management** for enhanced user experience
-* **Animated UI transitions** for smooth interactions
-
----
